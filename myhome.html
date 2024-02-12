@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Personalized Landing</title>
+        <style>
+            body{
+                background-color: lemonchiffon;
+                font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+
+            .wrapper{
+                display: flex;
+            }
+
+            .card-row-in{
+                display: flex;
+            }
+
+            .card{
+                width: 20%;
+                border: 2px solid black;
+                margin: 5px;
+                background-color: white;
+            }
+
+            .card:hover{
+                background-color: grey;
+            }
+
+            a{
+                color: black;
+            }
+
+            .card-content{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                text-align: center;
+            }
+
+            #hline{
+                background-color: black;
+                height: 5px;
+                margin-top: 60px;
+                margin-bottom: 60px;
+            }
+
+            #link-wrap{
+                flex-grow: 5;
+                padding: 2px;
+            }
+
+            #table-wrap{
+                align-self: center;
+            }
+
+            #uni-timetable{
+                border: 2px solid black;
+            }
+
+            #table-head-row{
+                font-weight: bold;
+                border-right: 2px solid black;
+                border-bottom: 2px solid black;
+            }
+
+            #table-head{
+                font-weight: bold;
+                border-right: 2px solid black;
+            }
+
+            table{
+                border-collapse: collapse;
+                background-color: white;
+            }
+
+            tr{
+                border: 1px solid black;
+            }
+
+            td{
+                padding-right: 2px;
+                padding-left: 2px;
+            }
+
+            #uni-hour{
+                background-color: #ffb3b3;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div id="link-wrap">
+                <div class="card-row">
+                    <h1>Most Used Links</h1>
+                    <div class="card-row-in" id="most-used">
+
+                        <div class="card">
+                            <a href="https://mail.google.com/">
+                                <div class="card-content">
+                                    <h2>Mail</h2>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="card">
+                            <a href="https://www.youtube.com/">
+                                <div class="card-content">
+                                    <h2>Youtube</h2>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="card">
+                            <a href="https://www.linkedin.com/in/filippo-brajucha/">
+                                <div class="card-content">
+                                    <h2>Linkedin</h2>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="card">
+                            <a href="https://www.github.com/">
+                                <div class="card-content">
+                                    <h2>GitHub</h2>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="card">
+                            <a href="https://calendar.google.com/">
+                                <div class="card-content">
+                                    <h2>Calendar</h2>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div id="hline"></div>
+                
+                <div class="card-row">
+                    <h1>University</h1>
+                    <div class="card-row-in" id="most-used">
+
+                        <div class="card">
+                            <a href="https://outlook.office.com/mail/">
+                                <div class="card-content">
+                                    <h2>Outlook</h2>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="card">
+                            <a href="https://studenti.unibo.it/">
+                                <div class="card-content">
+                                    <h2>StudentiOnLine</h2>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="card">
+                            <a href="https://corsi.unibo.it/magistrale/informatica/">
+                                <div class="card-content">
+                                    <h2>Informatica</h2>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="card">
+                            <a href="https://almaesami.unibo.it/almaesami/studenti/home.htm">
+                                <div class="card-content">
+                                    <h2>AlmaEsami</h2>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="card">
+                            <a href="https://amslaurea.unibo.it/28181/">
+                                <div class="card-content">
+                                    <h2>Tesi</h2>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div id="table-wrap">
+                <h1 style="text-align: center;">My Calendar</h1>
+                <div id="uni-timetable">
+                    <table>
+                        <tr id="table-head-row">
+                            <td id="table-head"></td>
+                            <td>Lunedì</td>
+                            <td>Martedì</td>
+                            <td>Mercoledì</td>
+                            <td>Giovedì</td>
+                            <td>Venerdì</td>
+                        </tr>
+                        <tr>
+                            <td id="table-head">09 - 10</td>
+                            <td id="uni-hour">Complementi</td>
+                            <td></td>
+                            <td id="uni-hour">C. Graph</td>
+                            <td></td>
+                            <td id="uni-hour">Complementi</td>
+                        </tr>
+                        <tr>
+                            <td id="table-head">10 - 11</td>
+                            <td id="uni-hour">Complementi</td>
+                            <td></td>
+                            <td id="uni-hour">C. Graph</td>
+                            <td></td>
+                            <td id="uni-hour">Complementi</td>
+                        </tr>
+                        <tr>
+                            <td id="table-head">11 - 12</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td id="uni-hour">Complementi</td>
+                        </tr>
+                        <tr>
+                            <td id="table-head">12 - 13</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td id="table-head">13 - 14</td>
+                            <td></td>
+                            <td id="uni-hour">Math Comp</td>
+                            <td id="uni-hour">Context AW</td>
+                            <td></td>
+                            <td id="uni-hour">Math Comp</td>
+                        </tr>
+                        <tr>
+                            <td id="table-head">14 - 15</td>
+                            <td></td>
+                            <td id="uni-hour">Math Comp</td>
+                            <td id="uni-hour">Context AW</td>
+                            <td></td>
+                            <td id="uni-hour">Math Comp</td>
+                        </tr>
+                        <tr>
+                            <td id="table-head">15 - 16</td>
+                            <td></td>
+                            <td id="uni-hour">Math Comp</td>
+                            <td id="uni-hour">Context AW</td>
+                            <td></td>
+                            <td id="uni-hour">Math Comp</td>
+                        </tr>
+                        <tr>
+                            <td id="table-head">16 - 17</td>
+                            <td></td>
+                            <td id="uni-hour">C. Graph</td>
+                            <td></td>
+                            <td id="uni-hour">Context AW</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td id="table-head">17 - 18</td>
+                            <td></td>
+                            <td id="uni-hour">C. Graph</td>
+                            <td></td>
+                            <td id="uni-hour">Context AW</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td id="table-head">18 - 19</td>
+                            <td></td>
+                            <td id="uni-hour">C. Graph</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+  </body>
+</html>
