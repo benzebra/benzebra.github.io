@@ -2,15 +2,13 @@
 ## CHANGE THESE
 ############################
 
-baseURL: 'https://benzebra.github.io/benzebra.github.io'
-title: benzebra.github.io
+baseURL: "https://benzebra.github.io"
+title: benzebra
 
 ############################
 ## MISC
 ############################
 
 enableEmoji: true
-disableKinds: ['taxonomy', 'term']
-languageCode: 'en-us'
-
-
+disableKinds: ["taxonomy", "term"]
+languageCode: "en-us"
