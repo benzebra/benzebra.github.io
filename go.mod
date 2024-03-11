@@ -1,4 +1,4 @@
-module github.com/chrede88/qubtTemplate
+module github.com/benzebra/benzebra.github.io
 
 go 1.22.0
 
