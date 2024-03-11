@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Filippo Brajucha</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in Projects on Filippo Brajucha</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ACULEI</title>
+      <link>http://localhost:1313/projects/aculei/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/aculei/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>animalHouse.</title>
+      <link>http://localhost:1313/projects/animalhouse/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/animalhouse/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BingoParty</title>
+      <link>http://localhost:1313/projects/bingo/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/bingo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blockchain Energy Consumption</title>
+      <link>http://localhost:1313/projects/blockchain-consume/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/blockchain-consume/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

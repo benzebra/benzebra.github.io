@@ -3,9 +3,9 @@
 ############################
 
 author:
-  name: benzebra
-  image: author.png
-  greeting: "Your new Qubt site :tada:"
+  name: Filippo Brajucha
+  image: profile.jpg
+  greeting: "Hello everyone! :tada:"
   icon: ":wave:"
 
 ############################
@@ -14,11 +14,11 @@ author:
 
 links:
   - github: https://github.com/benzebra/benzebra.github.io
-  - link: https://github.com/benzebra/benzebra.github.io#readme
+  # - link: https://github.com/benzebra/benzebra.github.io#readme
   # - website:
-  # - x-twitter:
+  - x-twitter: https://twitter.com/filippobrajucha
   # - mastodon:
-  # - linkedin:
+  - linkedin: https://www.linkedin.com/in/filippo-brajucha/
   # - instagram:
   # - reddit:
   # - telegram:
@@ -59,12 +59,11 @@ links:
   # - google:
   # - paypal:
   # - windows:
-
 ###############################
 ## OpenGraph & Twitter Cards
 ###############################
 
-title: benzebra.github.io
-description: "Site build with Qubt & Hugo"
-images:
-  - profile.jpg
+#title: benzebra.github.io
+#description: "Site build with Qubt & Hugo"
+#images:
+#  - profile.jpg
