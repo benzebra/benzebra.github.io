@@ -1,0 +1,16 @@
+############################
+## CHANGE THESE
+############################
+
+baseURL: 'https://benzebra.github.io/benzebra.github.io'
+title: benzebra.github.io
+
+############################
+## MISC
+############################
+
+enableEmoji: true
+disableKinds: ['taxonomy', 'term']
+languageCode: 'en-us'
+
+
